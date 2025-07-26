@@ -19,7 +19,7 @@ if pdf_file and image_file:
             for page in doc:
                 rect = page.rect
                 x0 = rect.x0 + 50
-                y0 = rect.y1 - 120
+                y0 = rect.y1 - 220
                 x1 = x0 + 600
                 y1 = y0 + 200
                 image_rect = fitz.Rect(x0, y0, x1, y1)
