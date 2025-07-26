@@ -20,8 +20,8 @@ if pdf_file and image_file:
                 rect = page.rect
                 x0 = rect.x0 + 50
                 y0 = rect.y1 - 120
-                x1 = x0 + 300
-                y1 = y0 + 100
+                x1 = x0 + 600
+                y1 = y0 + 200
                 image_rect = fitz.Rect(x0, y0, x1, y1)
                 page.insert_image(image_rect, stream=img_bytes)
 
